@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "content": "Làm bài kiểm tra chất lượng",
+        "date": "2024-09-23T00:00:00.000Z",
+        "startTime": "8:00",
+        "endTime": "11:00",
+        "location": "online",
+        "organizer": "Thanh Ngân",
+        "notes": "Chuẩn bị tài liệu trước buổi kiểm tra",
+        "status": "New",
+        "reviewer": "Hữu Nghĩa"
+    },
+    {
+        "id": "2",
+        "content": "Họp nhóm dự án",
+        "date": "2024-09-24T00:00:00.000Z",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "location": "Phòng họp A",
+        "organizer": "Minh Tuấn",
+        "notes": "Thảo luận về tiến độ dự án",
+        "status": "New",
+        "reviewer": ""
+    },
+    {
+        "id": "3",
+        "content": "Nộp báo cáo hàng tuần",
+        "date": "2024-09-25T00:00:00.000Z",
+        "startTime": "9:00",
+        "endTime": "10:00",
+        "location": "Email",
+        "organizer": "Hồng Anh",
+        "notes": "Tổng hợp công việc trong tuần",
+        "status": "In Progress",
+        "reviewer": "Quang Minh"
+    }
+]

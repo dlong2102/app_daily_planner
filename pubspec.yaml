@@ -1,0 +1,27 @@
+name: app_daily_planner
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.15
+  table_calendar: ^3.0.0
+  charts_flutter: ^0.12.0
+  provider: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/task.json
+    - assets/user_info.json
+    - assets/logo.png
