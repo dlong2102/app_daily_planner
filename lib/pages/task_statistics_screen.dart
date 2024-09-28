@@ -5,9 +5,9 @@ class StatisticsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var data = [
-      TaskStatus('Completed', 5),
+      TaskStatus('Completed', 1),
       TaskStatus('In Progress', 3),
-      TaskStatus('Not Started', 2),
+      TaskStatus('New', 2),
     ];
 
     var series = [

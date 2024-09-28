@@ -1,3 +1,4 @@
+import 'package:app_daily_planner/pages/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:app_daily_planner/models/add_task.dart';
@@ -37,6 +38,7 @@ class DailyPlannerApp extends StatelessWidget {
           routes: {
             '/': (context) => WelcomeScreen(),
             '/login': (context) => LoginScreen(),
+            '/home': (context) => HomePage(),
             '/tasks': (context) => TaskListScreen(),
             '/add_task': (context) => AddTaskScreen(),
           },

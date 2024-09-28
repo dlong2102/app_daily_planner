@@ -82,7 +82,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
                               content: Text('${removedTask.content} deleted')),
                         );
                       } catch (error) {
-                        // Nếu xoá thất bại, cần khôi phục lại task vừa xóa
+                        // Nếu chọn cancel, thì khôi phục lại task vừa xóa
                         setState(() {
                           _tasks.insert(index, removedTask);
                         });
